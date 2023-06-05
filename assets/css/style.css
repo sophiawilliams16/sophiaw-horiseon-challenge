@@ -23,8 +23,8 @@ header {
 .header h1 .seo {
     color: #d9dcd6;
 }
-
-.header div {
+/* replaced all div with nav */
+.header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -32,18 +32,17 @@ header {
     font-size: 20px;
 }
 
-.header div ul {
+.nav-bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
     list-style-type: none;
 }
 
-.header div ul li {
-    display: inline-block;
-    margin-left: 25px;
-}
-
 a {
-    color: #ffffff;
+    color: white;
     text-decoration: none;
+    margin: 0 15px 0 15px;
 }
 
 p {
