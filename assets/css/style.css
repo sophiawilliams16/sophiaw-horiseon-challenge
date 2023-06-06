@@ -32,18 +32,22 @@ header {
     font-size: 20px;
 }
 
+/* created new class nav-bar */
 .nav-bar {
     display: flex;
     flex-direction: row;
     justify-content: right;
-    list-style-type: none;
+    list-style-type: none; 
 }
 
-a {
+/* targeted anchor tags */
+.nav-bar a {
     color: white;
     text-decoration: none;
     margin: 0 15px 0 15px;
 }
+
+/* deleted selectors: .header nav ul and .header nav ul li */
 
 p {
     font-size: 16px;
